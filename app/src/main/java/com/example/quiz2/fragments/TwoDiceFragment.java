@@ -50,6 +50,7 @@ public class TwoDiceFragment extends Fragment {
     }
 
     private void rollDice() {
+        rollButton.setEnabled(false);
         dice1.roll();
         dice2.roll();
 
@@ -59,6 +60,7 @@ public class TwoDiceFragment extends Fragment {
             int dice2Value = dice2.getVal();
             int total = dice1Value + dice2Value;
             resultText.setText("Result: " + total + " (" + dice1Value + "+" + dice2Value + ")");
+            rollButton.setEnabled(true);
         }, 1000); // Wait for animation to complete
     }
 }

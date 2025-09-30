@@ -58,6 +58,7 @@ public class FourDiceFragment extends Fragment {
     }
 
     private void rollDice() {
+        rollButton.setEnabled(false);
         dice1.roll();
         dice2.roll();
         dice3.roll();
@@ -71,6 +72,7 @@ public class FourDiceFragment extends Fragment {
             int dice4Value = dice4.getVal();
             int total = dice1Value + dice2Value + dice3Value + dice4Value;
             resultText.setText("Result: " + total + " (" + dice1Value + "+" + dice2Value + "+" + dice3Value + "+" + dice4Value + ")");
+            rollButton.setEnabled(true);
         }, 1000); // Wait for animation to complete
     }
 }

@@ -46,12 +46,14 @@ public class OneDiceFragment extends Fragment {
     }
 
     private void rollDice() {
+        rollButton.setEnabled(false);
         dice.roll();
 
         // Update result text after animation completes
         rollButton.postDelayed(() -> {
             int result = dice.getVal();
             resultText.setText("Result: " + result);
+            rollButton.setEnabled(true);
         }, 1000); // Wait for animation to complete
     }
 }
