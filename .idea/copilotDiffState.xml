@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+              <option name="originalContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;resources&gt;&#10;    &lt;color name=&quot;black&quot;&gt;#FF000000&lt;/color&gt;&#10;    &lt;color name=&quot;white&quot;&gt;#FFFFFFFF&lt;/color&gt;&#10;    &lt;color name=&quot;red&quot;&gt;#FF2900&lt;/color&gt;&#10;    &lt;color name=&quot;blue&quot;&gt;#0000FF&lt;/color&gt;&#10;    &lt;color name=&quot;green&quot;&gt;#00FF00&lt;/color&gt;&#10;    &lt;color name=&quot;yellow&quot;&gt;#FFFF00&lt;/color&gt;&#10;    &lt;color name=&quot;magenta&quot;&gt;#FF00FF&lt;/color&gt;&#10;    &lt;color name=&quot;cyan&quot;&gt;#00FFFF&lt;/color&gt;&#10;    &lt;color name=&quot;orange&quot;&gt;#FFA500&lt;/color&gt;&#10;    &lt;color name=&quot;purple&quot;&gt;#800080&lt;/color&gt;&#10;&lt;/resources&gt;" />
+              <option name="updatedContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;resources&gt;&#10;    &lt;color name=&quot;black&quot;&gt;#FF000000&lt;/color&gt;&#10;    &lt;color name=&quot;white&quot;&gt;#FFFFFFFF&lt;/color&gt;&#10;    &lt;color name=&quot;red&quot;&gt;#FF2900&lt;/color&gt;&#10;    &lt;color name=&quot;blue&quot;&gt;#0000FF&lt;/color&gt;&#10;    &lt;color name=&quot;green&quot;&gt;#00FF00&lt;/color&gt;&#10;    &lt;color name=&quot;yellow&quot;&gt;#FFFF00&lt;/color&gt;&#10;    &lt;color name=&quot;magenta&quot;&gt;#FF00FF&lt;/color&gt;&#10;    &lt;color name=&quot;cyan&quot;&gt;#00FFFF&lt;/color&gt;&#10;    &lt;color name=&quot;orange&quot;&gt;#FFA500&lt;/color&gt;&#10;    &lt;color name=&quot;purple&quot;&gt;#800080&lt;/color&gt;&#10;&lt;/resources&gt;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

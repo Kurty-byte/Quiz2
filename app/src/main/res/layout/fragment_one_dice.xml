@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Title text view -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Die Roll"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Dice image view -->
+    <ImageView
+        android:id="@+id/dice_image_1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/dice_1"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Result text view -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: 1"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Roll button -->
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Dice"
+        android:textSize="16sp"
+        android:padding="12dp" />
+
+</LinearLayout>
